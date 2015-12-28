@@ -4,5 +4,4 @@ class LinkController {
 
     def scaffold = Link
 
-    def index() {}
 }
