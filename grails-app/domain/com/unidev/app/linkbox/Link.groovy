@@ -1,6 +1,6 @@
 package com.unidev.app.linkbox
 
-class Link {
+class Link implements Comparable<Link>  {
 
     String url;
     String title;
@@ -19,4 +19,9 @@ class Link {
 
     def LinkGroup linkGroup
     static belongsTo = [LinkGroup]
+
+    @Override
+    int compareTo(Link o) {
+        return weight.compareTo(o.weight)
+    }
 }

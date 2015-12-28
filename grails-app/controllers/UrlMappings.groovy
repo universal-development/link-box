@@ -8,6 +8,7 @@ class UrlMappings {
         }
 
         "/"(controller:"index")
+        "/admin"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
