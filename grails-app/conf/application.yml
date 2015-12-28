@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: com.unidev.app
+        defaultPackage: com.unidev.app.linkbox
 info:
     app:
         name: '@info.app.name@'

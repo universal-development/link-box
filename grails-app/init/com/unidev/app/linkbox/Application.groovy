@@ -1,4 +1,4 @@
-package com.unidev.app
+package com.unidev.app.linkbox
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
