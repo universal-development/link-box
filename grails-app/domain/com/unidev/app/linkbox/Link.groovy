@@ -6,7 +6,10 @@ class Link {
     String title;
     Integer weight;
 
-
+    @Override
+    String toString() {
+        return title + "";
+    }
     static constraints = {
         url blank: false, nullable: false
         title blank: false, nullable: false
