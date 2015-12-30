@@ -1,6 +1,6 @@
 package com.unidev.app.linkbox
 
-class LinkGroup implements Comparable<LinkGroup> {
+class LinkGroup {
 
     String title;
     String description;
@@ -16,11 +16,6 @@ class LinkGroup implements Comparable<LinkGroup> {
         weight blank: false, nullable: false
 
     }
-    SortedSet links
     static hasMany = [links: Link]
 
-    @Override
-    int compareTo(LinkGroup o) {
-        return weight.compareTo(o.weight)
-    }
 }
