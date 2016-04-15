@@ -2,6 +2,21 @@
 
 Link storage with web interface
 
+On index page can be viewed links by groups, on /admin/** pages cam be edited link groups and link details
+
+![Index page](/docs/index_page.png)
+
+![Link editing](/docs/links.png)
+
+**Requirements**
+
+Java 1.8
+
+Grails 3.1.4+
+
+Gradle 2.12+
+
+
 License
 =======
 
