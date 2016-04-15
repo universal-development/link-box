@@ -1,6 +1,8 @@
 import grails.util.BuildSettings
 import grails.util.Environment
 
+jmxConfigurator()
+
 // See http://logback.qos.ch/manual/groovy.html for details on configuration
 appender('STDOUT', ConsoleAppender) {
     encoder(PatternLayoutEncoder) {
