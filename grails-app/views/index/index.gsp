@@ -23,7 +23,13 @@
         <div class="navbar-header">
 
             <a class="navbar-brand" href="/">LinkBox</a>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/admin">Admin</a></li>
+            </ul>
+
         </div>
+
         <div id="navbar" class="navbar-collapse collapse">
 
         </div><!--/.nav-collapse -->
