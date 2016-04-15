@@ -39,6 +39,8 @@
     <div class="container">
         <div class="jumbotron">
             <h2>${group.title}</h2>
+            <small>${group.description}</small>
+            <hr/>
             <g:each var="link" in="${group.links}">
                 <p><a href="${link.url}">${link.url}</a> ${link.title}</p>
             </g:each>
