@@ -18,4 +18,8 @@ class LinkGroup {
     }
     static hasMany = [links: Link]
 
+    static mapping = {
+        links sort: 'weight', order: 'asc'
+    }
+
 }
